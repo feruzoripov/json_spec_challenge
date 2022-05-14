@@ -39,7 +39,7 @@ class CreateToolService
   end
 
   def create_translate_file(h)
-    File.open("#{Rails.root}/app/locales/#{tool_name}.#{tool_language}.yml", "w") { |file| file.write(h.to_yaml) }
+    File.open("#{Rails.root}/locales/#{tool_name}.#{tool_language}.yml", "w") { |file| file.write(h.to_yaml) }
 
     puts '#########################################'
     puts "Created #{tool_name}.#{tool_language}.yml"
