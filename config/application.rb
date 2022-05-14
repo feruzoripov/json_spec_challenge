@@ -36,5 +36,13 @@ module JsonSpecExercise
     # Middleware like session, flash, cookies can be added back manually.
     # Skip views, helpers and assets when generating a new resource.
     config.api_only = true
+    config.hosts << "0662-84-54-120-20.eu.ngrok.io"
+    config.paths.add File.join('app', 'services'), glob: File.join('**', '*.rb')
+    config.autoload_paths += Dir[Rails.root.join('app', 'services', '*')]
   end
+end
+
+LokaliseManager::GlobalConfig.config do |c|
+  c.api_token = '02b0408c8268b29922a2b7a1fe8233ff3f783e89'
+  c.project_id = '19525088627e5f6e95a343.52072974'
 end

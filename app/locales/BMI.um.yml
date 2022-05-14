@@ -1,0 +1,127 @@
+---
+BMI_version: '1.0'
+BMI_tool_version: '2.1'
+BMI_id: BMI
+BMI_language: EN
+BMI_result_resultRanges_bmi_title: BMI
+BMI_result_resultRanges_bmi_activityLevel: gray
+BMI_result_resultRanges_bmi_displayFormat: "–"
+BMI_result_resultRanges_red1_title: Severely underweight
+BMI_result_resultRanges_red1_activityLevel: red
+BMI_result_resultRanges_orange1_title: Moderately underweight
+BMI_result_resultRanges_orange1_activityLevel: orange
+BMI_result_resultRanges_yellow1_title: Mildly underweight
+BMI_result_resultRanges_yellow1_activityLevel: yellow
+BMI_result_resultRanges_green1_title: Normal weight
+BMI_result_resultRanges_green1_activityLevel: green
+BMI_result_resultRanges_yellow2_title: Overweight
+BMI_result_resultRanges_yellow2_activityLevel: yellow
+BMI_result_resultRanges_orange2_title: Obese class I
+BMI_result_resultRanges_orange2_activityLevel: orange
+BMI_result_resultRanges_red2_title: Obese class II
+BMI_result_resultRanges_red2_activityLevel: red
+BMI_result_resultRanges_deepRed2_title: Obese class III
+BMI_result_resultRanges_deepRed2_activityLevel: deepRed
+BMI_sections_questions_weight_type: number
+BMI_sections_questions_weight_title: Weight
+BMI_sections_questions_weight_unitID: weightKg
+BMI_sections_questions_weight_units_kg_title: kg
+BMI_sections_questions_height_type: number
+BMI_sections_questions_height_title: Height
+BMI_sections_questions_height_unitID: heightCM
+BMI_sections_questions_height_units_cm_title: cm
+BMI_infoSections_instructionsForUse_headerTitle: Instructions for use
+BMI_infoSections_instructionsForUse_footerTitle: 'Version: 8. 1. 2020'
+BMI_infoSections_instructionsForUse_infoItems_instructionsForUse1_type: text
+BMI_infoSections_instructionsForUse_infoItems_instructionsForUse1_title: "<b>General
+  description</b><br>Body mass index (BMI) is the most commonly used anthropometric
+  method to measure obesity, which is calculated as an individual’s weight in kilograms
+  divided by height in meters squared."
+BMI_infoSections_instructionsForUse_infoItems_instructionsForUse2_type: text
+BMI_infoSections_instructionsForUse_infoItems_instructionsForUse2_title: "<b>Intended
+  users</b><br>Healthcare professionals"
+BMI_infoSections_instructionsForUse_infoItems_instructionsForUse3_type: text
+BMI_infoSections_instructionsForUse_infoItems_instructionsForUse3_title: "<b>Intended
+  use</b><br>Calculate body mass index (BMI)"
+BMI_infoSections_instructionsForUse_infoItems_instructionsForUse4_type: text
+BMI_infoSections_instructionsForUse_infoItems_instructionsForUse4_title: "<b>Intended
+  patient population</b><br>Adults"
+BMI_infoSections_instructionsForUse_infoItems_instructionsForUse5_type: text
+BMI_infoSections_instructionsForUse_infoItems_instructionsForUse5_title: "<b>Medical
+  conditions to be diagnosed/treated/monitored</b><br>Obesity"
+BMI_infoSections_instructionsForUse_infoItems_instructionsForUse6_type: text
+BMI_infoSections_instructionsForUse_infoItems_instructionsForUse6_title: "<b>Patient
+  selection criteria</b><br>None"
+BMI_infoSections_instructionsForUse_infoItems_instructionsForUse7_type: text
+BMI_infoSections_instructionsForUse_infoItems_instructionsForUse7_title: "<b>Indications</b><br>None"
+BMI_infoSections_instructionsForUse_infoItems_instructionsForUse8_type: text
+BMI_infoSections_instructionsForUse_infoItems_instructionsForUse8_title: "<b>Contraindications</b><br>None"
+BMI_infoSections_warnings_headerTitle: Warnings
+BMI_infoSections_warnings_infoItems_clinicalJudgement_type: text
+BMI_infoSections_warnings_infoItems_clinicalJudgement_title: "<b>Tools do not replace
+  clinical judgement</b><br>Tools cannot replace clinical judgement and must not be
+  the sole factor for making decisions. Only healthcare professionals considering
+  features of an individual patient, beyond those represented in the tools, in addition
+  to extraneous factors (such as local prevalence of conditions that are on the differential
+  diagnosis) can make decisions for the management of an individual patient."
+BMI_infoSections_warnings_infoItems_correctInput_type: text
+BMI_infoSections_warnings_infoItems_correctInput_title: "<b>Tools depend on you inputting
+  the correct data</b><br>Tools depends on the accuracy of the information entered.
+  You are always responsible for verifying the result and using your best judgement."
+BMI_infoSections_warnings_infoItems_recommendedUpdates_type: text
+BMI_infoSections_warnings_infoItems_recommendedUpdates_title: "<b>Recommended updates</b><br>To
+  ensure safe and optimized running of the application, it is recommended that you
+  install software updates as soon as they are available. If you have not enabled
+  automatic updates for this application, then please update the application from
+  the alert in the news feed or an alert dialog inside the application."
+BMI_infoSections_referenceValues_headerTitle: Reference values
+BMI_infoSections_referenceValues_infoItems_referenceValues1_type: score
+BMI_infoSections_referenceValues_infoItems_referenceValues1_title: Severely underweight
+BMI_infoSections_referenceValues_infoItems_referenceValues1_pointRange: "&lt; 16"
+BMI_infoSections_referenceValues_infoItems_referenceValues1_activityLevel: red
+BMI_infoSections_referenceValues_infoItems_referenceValues2_type: score
+BMI_infoSections_referenceValues_infoItems_referenceValues2_title: Moderately underweight
+BMI_infoSections_referenceValues_infoItems_referenceValues2_pointRange: 16-16,99
+BMI_infoSections_referenceValues_infoItems_referenceValues2_activityLevel: orange
+BMI_infoSections_referenceValues_infoItems_referenceValues3_type: score
+BMI_infoSections_referenceValues_infoItems_referenceValues3_title: Mildly underweight
+BMI_infoSections_referenceValues_infoItems_referenceValues3_pointRange: 17-18,49
+BMI_infoSections_referenceValues_infoItems_referenceValues3_activityLevel: yellow
+BMI_infoSections_referenceValues_infoItems_referenceValues4_type: score
+BMI_infoSections_referenceValues_infoItems_referenceValues4_title: Normal weight
+BMI_infoSections_referenceValues_infoItems_referenceValues4_pointRange: 18,5-24,99
+BMI_infoSections_referenceValues_infoItems_referenceValues4_activityLevel: green
+BMI_infoSections_referenceValues_infoItems_referenceValues5_type: score
+BMI_infoSections_referenceValues_infoItems_referenceValues5_title: Overweight
+BMI_infoSections_referenceValues_infoItems_referenceValues5_pointRange: 25-29,99
+BMI_infoSections_referenceValues_infoItems_referenceValues5_activityLevel: yellow
+BMI_infoSections_referenceValues_infoItems_referenceValues6_type: score
+BMI_infoSections_referenceValues_infoItems_referenceValues6_title: Obese class I
+BMI_infoSections_referenceValues_infoItems_referenceValues6_pointRange: 30-34,99
+BMI_infoSections_referenceValues_infoItems_referenceValues6_activityLevel: orange
+BMI_infoSections_referenceValues_infoItems_referenceValues7_type: score
+BMI_infoSections_referenceValues_infoItems_referenceValues7_title: Obese class II
+BMI_infoSections_referenceValues_infoItems_referenceValues7_pointRange: 35-39,99
+BMI_infoSections_referenceValues_infoItems_referenceValues7_activityLevel: red
+BMI_infoSections_referenceValues_infoItems_referenceValues8_type: score
+BMI_infoSections_referenceValues_infoItems_referenceValues8_title: Obese class III
+BMI_infoSections_referenceValues_infoItems_referenceValues8_pointRange: "≥ 40"
+BMI_infoSections_referenceValues_infoItems_referenceValues8_activityLevel: deepRed
+BMI_infoSections_intro_headerTitle: Explanation
+BMI_infoSections_intro_infoItems_instructions1_type: text
+BMI_infoSections_intro_infoItems_instructions1_title: Body Mass Index (BMI) is a simple
+  index of weight-for-height that is commonly used to classify underweight, overweight
+  and obesity in adults. It is defined as the weight in kilograms divided by the square
+  of the height in metres (kg/m²).
+BMI_infoSections_formula_headerTitle: Formula
+BMI_infoSections_formula_infoItems_formula1_type: text
+BMI_infoSections_formula_infoItems_formula1_title: BMI = weight / height²
+BMI_infoSections_references_headerTitle: References
+BMI_infoSections_references_infoItems_reference1_type: text
+BMI_infoSections_references_infoItems_reference1_title: 'Keys, Ancel; Fidanza, Flaminio;
+  Karvonen, Martti J.; Kimura, Noboru; Taylor, Henry L. (1972). "Indices of relative
+  weight and obesity". Journal of Chronic Diseases 25 (6–7): 329–43.'
+BMI_infoSections_references_infoItems_reference2_type: text
+BMI_infoSections_references_infoItems_reference2_title: '"BMI Classification". Global
+  Database on Body Mass Index. World Health Organization. 2006. http://apps.who.int/bmi/index.jsp?introPage=intro_3.html
+  Retrieved May 2016.'
