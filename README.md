@@ -47,4 +47,4 @@ There were problems when integrating Lokalise gem, so I skipped this part. In or
 After making request, it will create PR in `https://github.com/feruzoripov/dev_challenge_json_specs` with updated keys. Once merged, it will update tool in the database.
 
 
-NOTE: Github token is needed to create PR.
+NOTE: Github token is needed to create PR. Also, configuration of webhooks in the repo is needed and ngrok for making local server accessible.
