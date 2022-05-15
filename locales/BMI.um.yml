@@ -4,7 +4,7 @@ BMI_tool_version: '2.1'
 BMI_id: BMI
 BMI_language: EN
 BMI_result_resultRanges_bmi_title: BMI
-BMI_result_resultRanges_bmi_activityLevel: gray
+BMI_result_resultRanges_bmi_activityLevel: red
 BMI_result_resultRanges_bmi_displayFormat: "–"
 BMI_result_resultRanges_red1_title: Severely underweight
 BMI_result_resultRanges_red1_activityLevel: red

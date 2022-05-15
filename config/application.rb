@@ -36,7 +36,7 @@ module JsonSpecExercise
     # Middleware like session, flash, cookies can be added back manually.
     # Skip views, helpers and assets when generating a new resource.
     config.api_only = true
-    config.hosts << "0662-84-54-120-20.eu.ngrok.io"
+    config.hosts << "b85d-37-110-210-114.eu.ngrok.io"
     config.paths.add File.join('app', 'services'), glob: File.join('**', '*.rb')
     config.autoload_paths += Dir[Rails.root.join('app', 'services', '*')]
   end

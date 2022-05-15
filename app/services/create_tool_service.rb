@@ -7,9 +7,15 @@ class CreateToolService
 
   def create
     if payload && payload['ref'] == "refs/heads/master" # ignore other branches
-      Tool.create!(name: tool_name, language: tool_language, json_spec: json_spec)
-      translate_keys = create_translate_keys
-      create_translate_file(translate_keys)
+      if payload['commits'].first['modified'].present?
+        tool = Tool.where(name: tool_name, language: tool_language).first
+        tool.json_spec = json_spec
+        tool.save!
+      else
+        Tool.create!(name: tool_name, language: tool_language, json_spec: json_spec)
+        translate_keys = create_translate_keys
+        create_translate_file(translate_keys)
+      end
     end
   end
 
@@ -20,7 +26,11 @@ class CreateToolService
   end
 
   def filename
-    payload["commits"].first["added"].first
+    if payload && payload['commits'].first['modified'].present?
+      payload['commits'].first['modified'].first
+    else
+      payload["commits"].first["added"].first
+    end
   end
 
   def json_spec
